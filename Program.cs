@@ -51,3 +51,21 @@ void Commands()
     Console.WriteLine("3 – использовать массив: [“Russia”, “Denmark”, “Kazan”]");
     Console.WriteLine();
 }
+
+
+string ReadInput(string msg)
+{
+    Console.Write(msg);
+    return Console.ReadLine();
+}
+
+
+void PrintArray(string[] array)
+{
+    Console.Write("[ ");
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"“{array[i]}”, ");
+    }
+    Console.Write("] ");
+}
