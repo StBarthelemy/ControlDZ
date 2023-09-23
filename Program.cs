@@ -1,5 +1,5 @@
 ﻿string[] massiv = new string[] {};
-
+Commands();
 string VvodPolzovatel = ReadInput("Введите команду: ");
 switch (VvodPolzovatel)
 {
