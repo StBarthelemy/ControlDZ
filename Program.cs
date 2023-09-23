@@ -35,3 +35,19 @@ for (int i = 0; i <= massiv.Length - 1; i++)
         inde++;
     }
 }
+
+
+PrintArray(massiv);
+Console.Write("→ ");
+PrintArray(newArray);
+
+
+void Commands()
+{
+    Console.WriteLine();
+    Console.WriteLine("СПИСОК КОМАНД:");
+    Console.WriteLine("1 – использовать массив: [“Hello”, “2”, “world”, “:-)”]");
+    Console.WriteLine("2 – использовать массив: [“1234”, “1567”, “-2”, “computer science”]");
+    Console.WriteLine("3 – использовать массив: [“Russia”, “Denmark”, “Kazan”]");
+    Console.WriteLine();
+}
