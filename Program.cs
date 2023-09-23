@@ -16,3 +16,22 @@ switch (VvodPolzovatel)
         Console.WriteLine($"{VvodPolzovatel} - Такой команды нет");
         break;
 }
+
+
+int array = 0;
+for (int i = 0; i <= massiv.Length - 1; i++)
+{
+    if (massiv[i].Length <= 3) array++;
+}
+
+string[] newArray = new string[array];
+int inde = 0;
+
+for (int i = 0; i <= massiv.Length - 1; i++)
+{
+    if (massiv[i].Length <= 3)
+    {
+        newArray[inde] = massiv[i];
+        inde++;
+    }
+}
